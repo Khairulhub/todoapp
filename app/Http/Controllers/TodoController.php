@@ -20,8 +20,14 @@ class TodoController extends Controller
 
         return view('add_Page');
     }
+    
     public function added(Request $request)
     {
+        // $validatedData = $request->validate([
+        //     'name' => 'required|max:255',
+        //     'email' => 'required|email|unique:tasks,email',
+        // ]);
+        
         $data = array();
         $data['name'] = $request->name;
         $data['email'] = $request->email;

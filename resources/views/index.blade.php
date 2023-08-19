@@ -13,7 +13,7 @@
 
    
 
-   <div class="container">
+   <div class="container py-5 my-5">
        <a href="{{ route('add') }}" class="btn btn-primary">Add</a>
     <table class="table">
         <thead>
